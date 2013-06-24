@@ -30,7 +30,14 @@
 ######################################################################
 
 # array of URL for AdblockPlus lists
-URLS=("https://easylist-downloads.adblockplus.org/fanboy-social.txt" "http://adblockplus.mozdev.org/easylist/easylist.txt" "https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt")
+URLS=(
+	"https://easylist-downloads.adblockplus.org/fanboy-social.txt" 
+	"http://adblockplus.mozdev.org/easylist/easylist.txt" 
+	"https://easylist-downloads.adblockplus.org/fanboy-annoyance.txt" 
+	"https://easylist-downloads.adblockplus.org/easyprivacy.txt" 
+	"https://easylist-downloads.adblockplus.org/malwaredomains_full.txt"
+	"https://secure.fanboy.co.nz/fanboy-adult.txt"
+)
 # privoxy config dir (default: /etc/privoxy/)
 CONFDIR=/etc/privoxy
 # directory for temporary files
